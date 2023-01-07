@@ -13,7 +13,7 @@ h2 {
     font-weight: lighter;
 }
 .small_blue {
-    font-size: 0.5em;
+    font-size: 0.7em;
     font-weight: lighter;
     color: teal;
     margin-bottom: 0px;
@@ -23,5 +23,8 @@ h2 {
 }
 .job_title {
     margin-top: 5px;
-    font-size: 0.5em;
+    font-size: 0.65em;
+}
+.summary {
+    font-size: 0.6em;
 }
