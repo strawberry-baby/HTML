@@ -1,0 +1,18 @@
+header {
+    border: 1px solid black;
+}
+ nav {
+    border: 1px solid red;
+ }
+section {
+    border: 1px solid yellow;
+}
+article {
+    border: 1px solid green;
+}
+aside {
+    border: 1px solid blue;
+}
+footer {
+    border: 1px solid purple;
+}
