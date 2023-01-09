@@ -1,39 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="cv.css">
-    </head>
-    <body>
-        <h1>[ANNA LE]
-            <p class="small_blue">[Street Address] | [City, ST ZIP Code] | [phone] | [email]</p>
-        <h2>Objective
-            <p class="text_color" style="font-size: 0.9em;">[To replace tip text with your own, just select a line of text and start
-                typing. For best results when selecting text to copy or replace, don’t
-                include space to the right of the characters in your selection.]</p>
-        </h2>        
-        <h2>Education
-            <ul class="text_color" style="font-size: 0.7em; font-weight: lighter;">
-                <li>[School Name, City, State]</li>
-                <li>[Degree] | [Date of Graduation]</li>
-                <li>[Major]</li>
-                <li>[You might want to include your GPA here and a brief summary of relevant coursework,
-                    awards, and honors]</li>
-            </ul>
-        </h2>
-        <h2>Experience
-            <p class="small_blue">[Dates From] – [To]</p>
-            <p class="job_title">[Job Title] | [Company Name] | [Location]</p>
-            <p class="summary text_color">[This is the place for a brief summary of your key responsibilities and most stellar
-                accomplishments.]</p>
-            <p class="small_blue">[Dates From] – [To]</p>
-            <p class="job_title">[Job Title] | [Company Name] | [Location]</p>
-            <p class="summary text_color">This is the place for a brief summary of your key responsibilities and most stellar
-                accomplishments.]</p>
-        </h2>
-        <h2>Awards & Acknowledgements
-            <ul class="summary text_color">
-                <li>[Don’t be shy – list the acknowledgments you received for a job well done.]</li>
-            </ul>
-        </h2>
-    </body>
+
+<head>
+    <style>
+    ul{
+        list-style: none;
+    }
+    ul li::before {
+        content: "\2022";
+        color:blue;
+        font-weight: bold;
+        display: inline-block;
+        width: 10px;
+        margin-left: -40px;
+    }
+    </style>
+    <link rel="stylesheet" href="cv.css">
+</head>
+
+<body class="mergin_general">
+
+    <h1 style="margin-bottom: 0px;">[ANNA LE]</h1>
+    <p class="small_blue">[Street Address] | [City, ST ZIP Code] | [phone] | [email]</p>
+    <h2>Objective</h2>
+    <p class="text_color" style="font-size: 18px;">[To replace tip text with your own, just select a line of text and
+        start
+        typing. For best results when selecting text to copy or replace, don’t
+        include space to the right of the characters in your selection.]</p>
+
+    <h2>Education</h2>
+    <ul class="info">
+        <li>[School Name, City, State]</li>
+        <li>[Degree] | [Date of Graduation]</li>
+        <li>[Major]</li>
+        <li>[You might want to include your GPA here and a brief summary of relevant coursework,
+            awards, and honors]</li>
+    </ul>
+
+    <h2>Experience</h2>
+    <p class="small_blue">[Dates From] – [To]</p>
+    <p class="job_title">[Job Title] | [Company Name] | [Location]</p>
+    <p class="info">[This is the place for a brief summary of your key responsibilities and most stellar
+        accomplishments.]</p>
+    <p class="small_blue">[Dates From] – [To]</p>
+    <p class="job_title">[Job Title] | [Company Name] | [Location]</p>
+    <p class="info">This is the place for a brief summary of your key responsibilities and most stellar
+        accomplishments.]</p>
+
+    <h2>Awards & Acknowledgements</h2>
+    <ul class="info">
+        <li>[Don’t be shy – list the acknowledgments you received for a job well done.]</li>
+    </ul>
+
+</body>
+
 </html>
