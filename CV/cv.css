@@ -1,0 +1,60 @@
+
+:root {
+    --abcd: rgb(95, 92, 92);
+}
+
+.mergin_general {
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+.small_blue {
+    font-size: 12px;
+    font-weight: lighter;
+    color: teal;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+h2 {
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: heading;
+}
+.text_color {
+    color: var(--abcd);
+}
+.info {
+    font-size: 15px;
+    color:rgb(95, 92, 92) ;
+}
+.job_title {
+    margin-top: 5px;
+    font-size: 15px;
+}
+@font-face {
+    font-family: newfont;
+    src: url(../fonts/angilla_tattoo.ttf);
+}
+@font-face {
+    font-family: heading;
+    src: url(../fonts/print_clearly_tt.ttf);
+}
+@font-face {
+    font-family: list;
+    src: url(../fonts/Sketch.ttf);
+}
+@font-face {
+    font-family: paragragh;
+    src: url(../fonts/angilla_tattoo.ttf);
+}
+
+/* h1 {
+    font-family: newfont;
+}
+ul {
+    font-family: list;
+}
+p {
+    font-family: paragragh;
+} */
